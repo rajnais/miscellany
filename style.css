@@ -49,6 +49,7 @@ a, a:hover, a:active, a:visited {
   right: 40px;
   height: 40px;
   text-align: center;
+    display: none;
 }
 
 .mobile #titleBar {
