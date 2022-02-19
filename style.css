@@ -614,6 +614,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 70%;
   height: 70%;
   margin: 15%;
+    display: none;
 }
 
 .info-hotspot .info-hotspot-text {
@@ -664,6 +665,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               -webkit-transform 0.3s 0.3s,
               transform 0.3s 0.3s,
               visibility 0s 0s;
+    display:none;
 }
 
 /* Info hotspot modal */
