@@ -563,6 +563,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .info-hotspot .info-hotspot-title {
   display: inline-block;
   vertical-align: middle;
+    color:#282828;
 
   -moz-user-select: text;
   -webkit-user-select: text;
@@ -608,6 +609,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               -webkit-transform 0.3s,
               transform 0.3s,
               visibility 0s 0s;
+    display:none;
 }
 
 .info-hotspot .info-hotspot-close-icon {
@@ -794,12 +796,14 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   -webkit-user-select: text;
   -ms-user-select: text;
   user-select: text;
+    display: none;
 }
 
 .info-hotspot-modal.visible .info-hotspot-text {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out 0.4s;
   transition: opacity 0.3s ease-in-out 0.4s;
+    display: none;
 }
 
 /* View control buttons */
