@@ -563,7 +563,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 .info-hotspot .info-hotspot-title {
   display: inline-block;
   vertical-align: middle;
-    color:#282828;
+    color:#333333;
 
   -moz-user-select: text;
   -webkit-user-select: text;
