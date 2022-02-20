@@ -85,6 +85,7 @@ body.multiple-scenes.mobile #titleBar {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+    text-shadow: #000 0px 0px 5px;
 
   -moz-user-select: text;
   -webkit-user-select: text;
@@ -403,7 +404,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   background-color: rgba(58,68,84,0);
   background-color: rgba(58,68,84,0);
 
-text-shadow: 0px 0px 4px 0px rgba(55, 55, 55, 1);
+text-shadow: #000 0px 0px 5px;
     color: rgba(239, 238, 238, 1);
     
   white-space: nowrap;
